@@ -86,6 +86,7 @@ import red.line.instayar.ui.theme.VipGoldDark
 import red.line.instayar.ui.theme.VipGoldLight
 import red.line.instayar.util.ImageExportUtil
 import red.line.instayar.util.PersianDateUtil
+import red.line.instayar.util.StoragePermissionHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import android.graphics.Bitmap
@@ -108,7 +109,28 @@ fun EditorScreen(
     var showExitConfirmDialog by remember { mutableStateOf(false) }
     var showVipBottomSheet by remember { mutableStateOf(false) }
 
+    // ─── مجوز ذخیره‌سازی ─────────────────────────────────────────────
+    var showStoragePermissionDialog by remember { mutableStateOf(false) }
+    var pendingSaveAfterPermission by remember { mutableStateOf(false) }
+
     val context = androidx.compose.ui.platform.LocalContext.current
+
+    val storagePermissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestPermission()
+    ) { granted ->
+        if (granted) {
+            if (pendingSaveAfterPermission) {
+                pendingSaveAfterPermission = false
+                editorViewModel.exportToGallery(context) { success ->
+                    if (success) editorViewModel.closeExportDialog()
+                }
+            }
+        } else {
+            pendingSaveAfterPermission = false
+        }
+    }
+    // ────────────────────────────────────────────────────────────────
+
     val photoPickerLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.PickVisualMedia()
     ) { uri ->
@@ -436,10 +458,17 @@ fun EditorScreen(
             onQualityChanged = { editorViewModel.setExportQuality(it) },
             onDismiss = { editorViewModel.closeExportDialog() },
             onSaveToGallery = {
-                editorViewModel.exportToGallery(context) { success ->
-                    if (success) {
-                        editorViewModel.closeExportDialog()
+                if (StoragePermissionHelper.hasPermission(context)) {
+                    // مجوز هست یا لازم نیست → ذخیره مستقیم
+                    editorViewModel.exportToGallery(context) { success ->
+                        if (success) {
+                            editorViewModel.closeExportDialog()
+                        }
                     }
+                } else {
+                    // مجوز لازم است → اول دیالوگ توضیح، بعد درخواست سیستمی
+                    pendingSaveAfterPermission = true
+                    showStoragePermissionDialog = true
                 }
             },
             onShareInstagram = {
@@ -450,6 +479,66 @@ fun EditorScreen(
                 editorViewModel.closeExportDialog()
                 showVipBottomSheet = true
             }
+        )
+    }
+
+    // Storage Permission Explanation Dialog
+    if (showStoragePermissionDialog) {
+        val isDark = MaterialTheme.colorScheme.background == DarkBackground
+        AlertDialog(
+            onDismissRequest = {
+                showStoragePermissionDialog = false
+                pendingSaveAfterPermission = false
+            },
+            icon = {
+                Icon(
+                    imageVector = Icons.Rounded.Info,
+                    contentDescription = null,
+                    tint = BrandPurple,
+                    modifier = Modifier.size(32.dp)
+                )
+            },
+            title = {
+                Text(
+                    text = "دسترسی به حافظه لازم است 📁",
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+            },
+            text = {
+                Text(
+                    text = "برای ذخیره کردن تصاویر خروجی ساخته‌شده در حافظه گوشی و نمایش آن‌ها در گالری، " +
+                    "برنامه به دسترسی نوشتن در حافظه نیاز دارد.\n\n" +
+                    "این دسترسی فقط برای ذخیره تصاویر شما استفاده می‌شود و هیچ اطلاعاتی از شما " +
+                    "جمع‌آوری، ذخیره یا به بیرون ارسال نمی‌شود.",
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    fontSize = 14.sp
+                )
+            },
+            confirmButton = {
+                Button(
+                    onClick = {
+                        showStoragePermissionDialog = false
+                        StoragePermissionHelper.requiredPermission()?.let {
+                            storagePermissionLauncher.launch(it)
+                        }
+                    },
+                    colors = ButtonDefaults.buttonColors(containerColor = BrandPurple),
+                    shape = RoundedCornerShape(12.dp)
+                ) {
+                    Text("اجازه می‌دهم", color = Color.White)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = {
+                    showStoragePermissionDialog = false
+                    pendingSaveAfterPermission = false
+                }) {
+                    Text("انصراف", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+            },
+            containerColor = if (isDark) DarkSurfaceCardElevated else Color.White,
+            shape = RoundedCornerShape(22.dp)
         )
     }
 
