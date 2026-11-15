@@ -1,0 +1,105 @@
+{
+  "id": "tpl_b4_04_mothers_day_polaroid",
+  "title": "گرامیداشت روز مادر و زن",
+  "category": "مناسبتی",
+  "format": "STORY",
+  "isVip": true,
+  "tags": [
+    "مناسبتی",
+    "روز مادر",
+    "گل",
+    "پولاروید",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#FFF1F2",
+    "gradientColors": [
+      "#FFFFFF",
+      "#FFE4E6"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_mothers_polaroid_card",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.13,
+      "width": 0.8,
+      "height": 0.44,
+      "backgroundColor": "#FFFFFF",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0,
+      "hasShadow": true,
+      "shadowColor": "#20000000"
+    },
+    {
+      "id": "el_mothers_photo",
+      "type": "IMAGE",
+      "x": 0.14,
+      "y": 0.145,
+      "width": 0.72,
+      "height": 0.33,
+      "imageAsset": "mothers_roses_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "RECTANGLE"
+    },
+    {
+      "id": "el_mothers_handwriting",
+      "type": "TEXT",
+      "x": 0.12,
+      "y": 0.41,
+      "width": 0.76,
+      "height": 0.082,
+      "text": "هدیه‌ای از صمیم قلب برای فرشته زندگی",
+      "fontSize": 14.5,
+      "fontWeight": "BOLD",
+      "textColor": "#BE123C",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_mothers_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.499,
+      "width": 0.84,
+      "height": 0.1431,
+      "text": "تبریک روز مادر و روز زن",
+      "fontSize": 26.0,
+      "fontWeight": "BLACK",
+      "textColor": "#881337",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_mothers_price",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.65,
+      "width": 0.84,
+      "height": 0.1112,
+      "text": "قیمت پک هدیه: ۴۹۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#BE123C",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_mothers_note",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "روبان‌پیچی و کارت تبریک رایگان",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#4C0519",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

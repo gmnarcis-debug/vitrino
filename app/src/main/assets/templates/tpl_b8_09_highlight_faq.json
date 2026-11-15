@@ -1,0 +1,74 @@
+{
+  "id": "tpl_b8_09_highlight_faq",
+  "title": "سوالات متداول شیشه‌ای نئومورفیک",
+  "category": "اطلاعیه",
+  "format": "HIGHLIGHT",
+  "isVip": false,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "سوالات متداول",
+    "شیشه‌ای",
+    "گلس‌مورفیسم"
+  ],
+  "background": {
+    "type": "GRADIENT",
+    "color": "#1E1B4B",
+    "gradientColors": [
+      "#4C1D95",
+      "#1E1B4B"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_b8_09_frosted_disc",
+      "type": "SHAPE",
+      "x": 0.19,
+      "y": 0.19,
+      "width": 0.62,
+      "height": 0.62,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 90.0,
+      "backgroundColor": "#33FFFFFF",
+      "borderColor": "#66FFFFFF",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_b8_09_glass_arc",
+      "type": "SHAPE",
+      "x": 0.28,
+      "y": 0.23,
+      "width": 0.44,
+      "height": 0.1,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 20.0,
+      "backgroundColor": "#44FFFFFF"
+    },
+    {
+      "id": "el_b8_09_icon",
+      "type": "TEXT",
+      "x": 0.22,
+      "y": 0.33,
+      "width": 0.56,
+      "height": 0.18,
+      "text": "❓",
+      "fontSize": 38.0,
+      "textAlign": "CENTER",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "id": "el_b8_09_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.56,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "سوالات متداول",
+      "fontSize": 23.0,
+      "fontFamily": "shabnam",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "tpl_b7_04_story_wedding_postcard",
+  "title": "تبریک سالگرد ازدواج کارت‌پستال رترو",
+  "category": "تبریک",
+  "format": "STORY",
+  "isVip": true,
+  "tags": [
+    "تبریک",
+    "سالگرد ازدواج",
+    "کارت‌پستال",
+    "رترو",
+    "استوری"
+  ],
+  "background": {
+    "type": "GRADIENT",
+    "color": "#FDFBF7",
+    "gradientColors": [
+      "#F5EBE1",
+      "#FDFBF7"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_b7_04_badge_bg",
+      "type": "SHAPE",
+      "x": 0.26,
+      "y": 0.14,
+      "width": 0.48,
+      "height": 0.045,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "backgroundColor": "#FEF3C7",
+      "borderColor": "#FDE68A",
+      "borderWidth": 1.0
+    },
+    {
+      "id": "el_b7_04_badge_txt",
+      "type": "TEXT",
+      "x": 0.26,
+      "y": 0.14,
+      "width": 0.48,
+      "height": 0.045,
+      "text": "پیوند آسمانی عشق 💍",
+      "fontSize": 14.0,
+      "fontFamily": "vazirmatn",
+      "textColor": "#78350F",
+      "backgroundColor": "#FEF3C7",
+      "textAlign": "CENTER"
+    },
+    {
+      "id": "el_b7_04_photo",
+      "type": "IMAGE",
+      "x": 0.1,
+      "y": 0.2,
+      "width": 0.8,
+      "height": 0.38,
+      "imageAsset": "camera_wedding_album_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 18.0,
+      "borderColor": "#D97706",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_b7_04_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.6,
+      "width": 0.84,
+      "height": 0.13,
+      "text": "پیوند آسمانی‌مان جاودان باد",
+      "fontSize": 24.0,
+      "fontFamily": "shabnam",
+      "textColor": "#451A03",
+      "textAlign": "CENTER"
+    },
+    {
+      "id": "el_b7_04_subtitle",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.73,
+      "width": 0.84,
+      "height": 0.08,
+      "text": "سالگرد یکی شدن دل‌های مهربانمان فرخنده باد",
+      "fontSize": 15.0,
+      "fontFamily": "vazirmatn",
+      "textColor": "#78350F",
+      "textAlign": "CENTER"
+    }
+  ]
+}

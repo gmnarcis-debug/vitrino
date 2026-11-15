@@ -1,0 +1,91 @@
+{
+  "id": "tpl_b7_03_story_birthday_confetti",
+  "title": "تبریک تولد جشن و کانفتی",
+  "category": "تبریک",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "تبریک",
+    "تولد",
+    "جشن",
+    "کیک",
+    "استوری"
+  ],
+  "background": {
+    "type": "GRADIENT",
+    "color": "#4C1D95",
+    "gradientColors": [
+      "#6D28D9",
+      "#4C1D95"
+    ],
+    "angle": 145.0
+  },
+  "elements": [
+    {
+      "id": "el_b7_03_badge_bg",
+      "type": "SHAPE",
+      "x": 0.25,
+      "y": 0.14,
+      "width": 0.5,
+      "height": 0.045,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "backgroundColor": "#FEF08A",
+      "borderColor": "#FDE047",
+      "borderWidth": 1.0
+    },
+    {
+      "id": "el_b7_03_badge_txt",
+      "type": "TEXT",
+      "x": 0.25,
+      "y": 0.14,
+      "width": 0.5,
+      "height": 0.045,
+      "text": "جشن فرخنده میلاد 🎂",
+      "fontSize": 14.0,
+      "fontFamily": "vazirmatn",
+      "textColor": "#1E1B4B",
+      "backgroundColor": "#FEF08A",
+      "textAlign": "CENTER"
+    },
+    {
+      "id": "el_b7_03_photo",
+      "type": "IMAGE",
+      "x": 0.15,
+      "y": 0.2,
+      "width": 0.7,
+      "height": 0.36,
+      "imageAsset": "birthday_party_cake_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "CIRCLE",
+      "borderColor": "#FDE047",
+      "borderWidth": 3.0
+    },
+    {
+      "id": "el_b7_03_title",
+      "type": "TEXT",
+      "x": 0.07,
+      "y": 0.58,
+      "width": 0.86,
+      "height": 0.14,
+      "text": "تولدت هزاران بار مبارک",
+      "fontSize": 26.0,
+      "fontFamily": "shabnam",
+      "textColor": "#FDE047",
+      "textAlign": "CENTER"
+    },
+    {
+      "id": "el_b7_03_subtitle",
+      "type": "TEXT",
+      "x": 0.07,
+      "y": 0.73,
+      "width": 0.86,
+      "height": 0.08,
+      "text": "آرزوی سالی سرشار از خنده و موفقیت‌های بزرگ",
+      "fontSize": 15.0,
+      "fontFamily": "vazirmatn",
+      "textColor": "#F3E8FF",
+      "textAlign": "CENTER"
+    }
+  ]
+}

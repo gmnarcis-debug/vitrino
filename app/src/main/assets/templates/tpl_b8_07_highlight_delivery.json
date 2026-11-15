@@ -1,0 +1,70 @@
+{
+  "id": "tpl_b8_07_highlight_delivery",
+  "title": "ارسال نئونی درخشان",
+  "category": "اطلاعیه",
+  "format": "HIGHLIGHT",
+  "isVip": true,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "ارسال",
+    "نئون",
+    "درخشان",
+    "VIP"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#030712"
+  },
+  "elements": [
+    {
+      "id": "el_b8_07_outer_neon",
+      "type": "SHAPE",
+      "x": 0.17,
+      "y": 0.17,
+      "width": 0.66,
+      "height": 0.66,
+      "shapeType": "CIRCLE",
+      "backgroundColor": "#0B132B",
+      "borderColor": "#00F0FF",
+      "borderWidth": 4.0
+    },
+    {
+      "id": "el_b8_07_inner_neon",
+      "type": "SHAPE",
+      "x": 0.23,
+      "y": 0.23,
+      "width": 0.54,
+      "height": 0.54,
+      "shapeType": "CIRCLE",
+      "backgroundColor": "#030712",
+      "borderColor": "#00F0FF88",
+      "borderWidth": 1.5
+    },
+    {
+      "id": "el_b8_07_rocket",
+      "type": "TEXT",
+      "x": 0.22,
+      "y": 0.3,
+      "width": 0.56,
+      "height": 0.18,
+      "text": "🚀",
+      "fontSize": 38.0,
+      "textAlign": "CENTER",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "id": "el_b8_07_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.54,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "ارسال اکسپرس",
+      "fontSize": 23.0,
+      "fontFamily": "shabnam",
+      "textColor": "#00F0FF",
+      "textAlign": "CENTER"
+    }
+  ]
+}

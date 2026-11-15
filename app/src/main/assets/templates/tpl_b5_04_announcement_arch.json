@@ -1,0 +1,129 @@
+{
+  "id": "tpl_b5_04_announcement_arch",
+  "title": "طاق افتتاحیه شعبه جدید",
+  "category": "اطلاعیه",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "اطلاعیه",
+    "افتتاحیه",
+    "شعبه جدید",
+    "طاق",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#9A3412",
+    "gradientColors": [
+      "#C2410C",
+      "#7C2D12"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_store_arch_bg",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.13,
+      "width": 0.8,
+      "height": 0.35,
+      "backgroundColor": "#7C2D12",
+      "shapeType": "ARCH",
+      "cornerRadius": 140.0
+    },
+    {
+      "id": "el_store_photo",
+      "type": "IMAGE",
+      "x": 0.13,
+      "y": 0.145,
+      "width": 0.74,
+      "height": 0.32,
+      "imageAsset": "store_front_opening_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ARCH",
+      "cornerRadius": 130.0
+    },
+    {
+      "id": "el_store_badge",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.43,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "مژده به همراهان همیشگی",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#FEF08A",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_store_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.48,
+      "width": 0.84,
+      "height": 0.1431,
+      "text": "افتتاح شعبه جدید در بلوار آزادی",
+      "fontSize": 26.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_store_details",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.63,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "پذیرایی و تخفیف ۲۰٪ افتتاحیه شعبه",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#FFEDD5",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_store_hours_pill",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.671,
+      "width": 0.8,
+      "height": 0.09,
+      "backgroundColor": "#FFFFFF",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_store_hours",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.679,
+      "width": 0.8,
+      "height": 0.082,
+      "text": "ساعت کاری: همه‌روزه از ۱۰ صبح تا ۱۰ شب",
+      "fontSize": 14.5,
+      "fontWeight": "BLACK",
+      "textColor": "#9A3412",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_store_address",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "آدرس: بلوار آزادی، نبش کوچه یازدهم",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#FED7AA",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    }
+  ]
+}

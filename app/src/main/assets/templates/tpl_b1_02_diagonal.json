@@ -1,0 +1,106 @@
+{
+  "id": "tpl_b1_02_diagonal",
+  "title": "مورب کفش ورزشی نیترو",
+  "category": "معرفی محصول",
+  "format": "STORY",
+  "isVip": true,
+  "tags": [
+    "معرفی محصول",
+    "کفش",
+    "ورزشی",
+    "مورب",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#1E3A8A",
+    "gradientColors": [
+      "#1D4ED8",
+      "#172554"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_diag_photo",
+      "type": "IMAGE",
+      "x": -0.05,
+      "y": 0.13,
+      "width": 1.1,
+      "height": 0.38,
+      "imageAsset": "shoes_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "PARALLELOGRAM",
+      "skewAngle": -6.0
+    },
+    {
+      "id": "el_slanted_card",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.525,
+      "width": 0.88,
+      "height": 0.275,
+      "backgroundColor": "#0F172A",
+      "borderColor": "#38BDF8",
+      "borderWidth": 1.5,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0
+    },
+    {
+      "id": "el_title_bold",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.445,
+      "width": 0.84,
+      "height": 0.1484,
+      "text": "کفش ورزشی نیترو پلاس",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_sub_specs",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.6,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "کفی طبی ایرژل با انعطاف‌پذیری عالی",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#BAE6FD",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_slanted_price_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.65,
+      "width": 0.84,
+      "height": 0.1112,
+      "text": "قیمت حراج: ۱,۸۹۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#38BDF8",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_guarantee",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "ضمانت ۶ ماهه تعویض و ارسال رایگان",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#F0F9FF",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "tpl_b5_02_review_hexagon",
+  "title": "نظر خریدار در قاب شش‌ضلعی",
+  "category": "نظر مشتری",
+  "format": "STORY",
+  "isVip": true,
+  "tags": [
+    "نظر مشتری",
+    "خریدار",
+    "شش‌ضلعی",
+    "پاستلی",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#F0FDF4",
+    "gradientColors": [
+      "#F0FDF4",
+      "#DCFCE7"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_hex_rev_badge_bg",
+      "type": "SHAPE",
+      "x": 0.28,
+      "y": 0.135,
+      "width": 0.44,
+      "height": 0.04,
+      "backgroundColor": "#DCFCE7",
+      "borderColor": "#86EFAC",
+      "borderWidth": 1.0,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0
+    },
+    {
+      "id": "el_hex_rev_badge",
+      "type": "TEXT",
+      "x": 0.28,
+      "y": 0.14,
+      "width": 0.44,
+      "height": 0.0422,
+      "text": "تجربه خرید واقعی",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#166534",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_hex_rev_photo",
+      "type": "IMAGE",
+      "x": 0.16,
+      "y": 0.19,
+      "width": 0.68,
+      "height": 0.28,
+      "imageAsset": "customer_review_face_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "HEXAGON",
+      "borderColor": "#86EFAC",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_hex_rev_stars",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.466,
+      "width": 0.84,
+      "height": 0.0581,
+      "text": "★★★★★",
+      "fontSize": 20.0,
+      "fontWeight": "BOLD",
+      "textColor": "#A16207",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_hex_rev_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.52,
+      "width": 0.84,
+      "height": 0.07,
+      "text": "نظر خانم محمدی",
+      "fontSize": 26.0,
+      "fontWeight": "BLACK",
+      "textColor": "#14532D",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_hex_rev_desc",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.61,
+      "width": 0.84,
+      "height": 0.045,
+      "text": "ارسال سریع و بسته‌بندی عالی بود",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#14532D",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_hex_rev_footer_pill",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.71,
+      "width": 0.8,
+      "height": 0.07,
+      "backgroundColor": "#15803D",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_hex_rev_footer_text",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.725,
+      "width": 0.8,
+      "height": 0.045,
+      "text": "مشاهده نظرات در هایلایت",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

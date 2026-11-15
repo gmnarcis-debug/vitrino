@@ -1,0 +1,115 @@
+{
+  "id": "tpl_b1_03_arch",
+  "title": "طاق عطر نیش رویال",
+  "category": "معرفی محصول",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "معرفی محصول",
+    "عطر",
+    "طاق",
+    "کرم",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#FAF7F2",
+    "gradientColors": [
+      "#FAF7F2",
+      "#F0EAE1"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_arch_backdrop",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.13,
+      "width": 0.8,
+      "height": 0.36,
+      "backgroundColor": "#E8DFD3",
+      "shapeType": "ARCH",
+      "cornerRadius": 140.0
+    },
+    {
+      "id": "el_arch_image",
+      "type": "IMAGE",
+      "x": 0.13,
+      "y": 0.145,
+      "width": 0.74,
+      "height": 0.33,
+      "imageAsset": "perfume_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ARCH",
+      "cornerRadius": 130.0
+    },
+    {
+      "id": "el_title_glow",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.49,
+      "width": 0.84,
+      "height": 0.0767,
+      "text": "عطر نیش بلک اوپیوم",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#2D241E",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_subtitle_1",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.592,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "رایحه گرم با ماندگاری ۴۸ ساعته",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#6B5E51",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_price_card",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.651,
+      "width": 0.8,
+      "height": 0.069,
+      "backgroundColor": "#2D241E",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_price_text",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.659,
+      "width": 0.8,
+      "height": 0.0581,
+      "text": "قیمت ویژه: ۶۸۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FAF7F2",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_consultation_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.742,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "مشاوره رایگان انتخاب رایحه مناسب",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#4A3B2C",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

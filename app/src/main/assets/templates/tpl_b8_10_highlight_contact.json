@@ -1,0 +1,70 @@
+{
+  "id": "tpl_b8_10_highlight_contact",
+  "title": "ارتباط با ما طلایی لوکس",
+  "category": "اطلاعیه",
+  "format": "HIGHLIGHT",
+  "isVip": true,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "تماس",
+    "طلایی",
+    "لوکس",
+    "VIP"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#0A0A0A"
+  },
+  "elements": [
+    {
+      "id": "el_b8_10_outer_gold",
+      "type": "SHAPE",
+      "x": 0.16,
+      "y": 0.16,
+      "width": 0.68,
+      "height": 0.68,
+      "shapeType": "CIRCLE",
+      "backgroundColor": "#171717",
+      "borderColor": "#D4AF37",
+      "borderWidth": 3.5
+    },
+    {
+      "id": "el_b8_10_inner_gold",
+      "type": "SHAPE",
+      "x": 0.22,
+      "y": 0.22,
+      "width": 0.56,
+      "height": 0.56,
+      "shapeType": "CIRCLE",
+      "backgroundColor": "#0A0A0A",
+      "borderColor": "#FBBF24",
+      "borderWidth": 1.0
+    },
+    {
+      "id": "el_b8_10_phone",
+      "type": "TEXT",
+      "x": 0.22,
+      "y": 0.3,
+      "width": 0.56,
+      "height": 0.18,
+      "text": "📞",
+      "fontSize": 36.0,
+      "textAlign": "CENTER",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "id": "el_b8_10_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.55,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "تماس و مشاوره",
+      "fontSize": 23.0,
+      "fontFamily": "shabnam",
+      "textColor": "#FDE047",
+      "textAlign": "CENTER"
+    }
+  ]
+}

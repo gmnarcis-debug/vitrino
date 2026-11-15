@@ -1,0 +1,133 @@
+{
+  "id": "tpl_b1_06_modern_neon",
+  "title": "نئونی ساعت هوشمند اولترا",
+  "category": "معرفی محصول",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "معرفی محصول",
+    "دیجیتال",
+    "ساعت هوشمند",
+    "نئون",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#0B0C16",
+    "gradientColors": [
+      "#16192E",
+      "#07080E"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_neon_badge_bg",
+      "type": "SHAPE",
+      "x": 0.28,
+      "y": 0.135,
+      "width": 0.44,
+      "height": 0.04,
+      "backgroundColor": "#1A1535",
+      "borderColor": "#A855F7",
+      "borderWidth": 1.2,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0
+    },
+    {
+      "id": "el_neon_badge_text",
+      "type": "TEXT",
+      "x": 0.28,
+      "y": 0.14,
+      "width": 0.44,
+      "height": 0.0422,
+      "text": "جدیدترین مدل ۲۰۲۵",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#C084FC",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_neon_frame",
+      "type": "IMAGE",
+      "x": 0.12,
+      "y": 0.19,
+      "width": 0.76,
+      "height": 0.29,
+      "imageAsset": "digital_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "borderColor": "#A855F7",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_neon_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.461,
+      "width": 0.84,
+      "height": 0.1484,
+      "text": "ساعت هوشمند اولترا پرو",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#F3E8FF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_neon_features",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.616,
+      "width": 0.84,
+      "height": 0.0794,
+      "text": "پایش اکسیژن خون و ضربان قلب با شارژدهی ۱۰ روزه",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#D8B4FE",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_neon_btn",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.642,
+      "width": 0.8,
+      "height": 0.09,
+      "backgroundColor": "#9333EA",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0
+    },
+    {
+      "id": "el_neon_price",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.703,
+      "width": 0.8,
+      "height": 0.0581,
+      "text": "پک ۲ نفره: ۴۲۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_neon_sub_cta",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "کابل شارژ سریع مغناطیسی هدیه خرید",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#E9D5FF",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    }
+  ]
+}

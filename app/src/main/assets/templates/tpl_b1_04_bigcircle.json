@@ -1,0 +1,114 @@
+{
+  "id": "tpl_b1_04_bigcircle",
+  "title": "دایره قهوه اسپشیالتی",
+  "category": "معرفی محصول",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "معرفی محصول",
+    "قهوه",
+    "دایره",
+    "کافه",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#F5EBE1",
+    "gradientColors": [
+      "#FAF4ED",
+      "#EDE0D0"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_circle_ring",
+      "type": "SHAPE",
+      "x": 0.15,
+      "y": 0.135,
+      "width": 0.7,
+      "height": 0.34,
+      "borderColor": "#B4845C",
+      "borderWidth": 2.0,
+      "shapeType": "CIRCLE"
+    },
+    {
+      "id": "el_circle_photo",
+      "type": "IMAGE",
+      "x": 0.18,
+      "y": 0.15,
+      "width": 0.64,
+      "height": 0.31,
+      "imageAsset": "coffee_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "CIRCLE"
+    },
+    {
+      "id": "el_origin_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.445,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "خاستگاه اتیوپی یرگاچف • ۱۰۰٪ عربیکا",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#8C5835",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_headline",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.494,
+      "width": 0.84,
+      "height": 0.1484,
+      "text": "دانه قهوه تازه برشته",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#3D2714",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_tasting_notes",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.65,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "نت‌های طعمی: کارامل، مرکبات و یاس",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#6E4E37",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_price_pill",
+      "type": "SHAPE",
+      "x": 0.08,
+      "y": 0.69,
+      "width": 0.84,
+      "height": 0.08,
+      "backgroundColor": "#3D2714",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0
+    },
+    {
+      "id": "el_price_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.705,
+      "width": 0.84,
+      "height": 0.055,
+      "text": "قیمت بسته: ۳۹۵,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    }
+  ]
+}

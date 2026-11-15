@@ -1,0 +1,57 @@
+{
+  "id": "tpl_b8_01_highlight_prices",
+  "title": "قیمت‌ها خط‌باریک",
+  "category": "قیمت‌نامه",
+  "format": "HIGHLIGHT",
+  "isVip": false,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "قیمت",
+    "مینیمال",
+    "خط‌باریک"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#FAF8F5"
+  },
+  "elements": [
+    {
+      "id": "el_b8_01_disc",
+      "type": "SHAPE",
+      "x": 0.2,
+      "y": 0.2,
+      "width": 0.6,
+      "height": 0.6,
+      "shapeType": "CIRCLE",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#1E293B",
+      "borderWidth": 2.5
+    },
+    {
+      "id": "el_b8_01_icon",
+      "type": "TEXT",
+      "x": 0.22,
+      "y": 0.3,
+      "width": 0.56,
+      "height": 0.2,
+      "text": "💳",
+      "fontSize": 38.0,
+      "textAlign": "CENTER",
+      "textColor": "#1E293B"
+    },
+    {
+      "id": "el_b8_01_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.54,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "لیست قیمت‌ها",
+      "fontSize": 23.0,
+      "fontFamily": "shabnam",
+      "textColor": "#1E293B",
+      "textAlign": "CENTER"
+    }
+  ]
+}

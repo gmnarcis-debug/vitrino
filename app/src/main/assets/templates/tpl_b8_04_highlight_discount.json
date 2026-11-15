@@ -1,0 +1,58 @@
+{
+  "id": "tpl_b8_04_highlight_discount",
+  "title": "تخفیف با قاب عکس دایره‌ای",
+  "category": "تخفیف و حراج",
+  "format": "HIGHLIGHT",
+  "isVip": false,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "تخفیف",
+    "عکس",
+    "دایره"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#FFF1F2"
+  },
+  "elements": [
+    {
+      "id": "el_b8_04_frame",
+      "type": "SHAPE",
+      "x": 0.18,
+      "y": 0.18,
+      "width": 0.64,
+      "height": 0.64,
+      "shapeType": "CIRCLE",
+      "backgroundColor": "#FFE4E6",
+      "borderColor": "#E11D48",
+      "borderWidth": 3.0
+    },
+    {
+      "id": "el_b8_04_photo",
+      "type": "IMAGE",
+      "x": 0.22,
+      "y": 0.22,
+      "width": 0.56,
+      "height": 0.38,
+      "imageAsset": "highlight_discount_gift_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "CIRCLE",
+      "borderColor": "#FB7185",
+      "borderWidth": 1.5
+    },
+    {
+      "id": "el_b8_04_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.63,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "تخفیف‌های ویژه",
+      "fontSize": 23.0,
+      "fontFamily": "shabnam",
+      "textColor": "#9F1239",
+      "textAlign": "CENTER"
+    }
+  ]
+}

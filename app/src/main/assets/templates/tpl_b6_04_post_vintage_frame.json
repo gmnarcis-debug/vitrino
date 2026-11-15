@@ -1,0 +1,132 @@
+{
+  "id": "tpl_b6_04_post_vintage_frame",
+  "title": "وینتیج گل و دکوراسیون",
+  "category": "تخفیف و حراج",
+  "format": "POST_SQUARE",
+  "isVip": false,
+  "tags": [
+    "تخفیف و حراج",
+    "وینتیج",
+    "قاب",
+    "دکوراسیون",
+    "پست"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#F0FDF4",
+    "gradientColors": [
+      "#F0FDF4",
+      "#DCFCE7"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_b6_04_card",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.06,
+      "width": 0.88,
+      "height": 0.88,
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#BBF7D0",
+      "borderWidth": 1.5,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 18.0,
+      "hasShadow": true,
+      "shadowColor": "#20000000"
+    },
+    {
+      "id": "el_b6_04_sticker",
+      "type": "SHAPE",
+      "x": 0.68,
+      "y": 0.08,
+      "width": 0.24,
+      "height": 0.075,
+      "backgroundColor": "#15803D",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0
+    },
+    {
+      "id": "el_b6_04_sticker_txt",
+      "type": "TEXT",
+      "x": 0.68,
+      "y": 0.082,
+      "width": 0.24,
+      "height": 0.07,
+      "text": "حراج بهاره",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_b6_04_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.075,
+      "width": 0.58,
+      "height": 0.12,
+      "text": "دکور وینتیج",
+      "fontSize": 24.0,
+      "fontWeight": "BLACK",
+      "textColor": "#166534",
+      "textAlign": "RIGHT",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_b6_04_photo",
+      "type": "IMAGE",
+      "x": 0.09,
+      "y": 0.21,
+      "width": 0.82,
+      "height": 0.49,
+      "imageAsset": "post_vintage_decor_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0,
+      "borderColor": "#E2E8F0",
+      "borderWidth": 1.0
+    },
+    {
+      "id": "el_b6_04_sub",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.715,
+      "width": 0.84,
+      "height": 0.07,
+      "text": "گلدان سرامیکی و بوکه خشک",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#475569",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_b6_04_pill",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.8,
+      "width": 0.8,
+      "height": 0.12,
+      "backgroundColor": "#B91C1C",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0
+    },
+    {
+      "id": "el_b6_04_price",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.81,
+      "width": 0.8,
+      "height": 0.1,
+      "text": "قیمت حراج: ۲۶۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    }
+  ]
+}

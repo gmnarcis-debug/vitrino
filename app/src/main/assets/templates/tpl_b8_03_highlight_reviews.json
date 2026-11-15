@@ -1,0 +1,70 @@
+{
+  "id": "tpl_b8_03_highlight_reviews",
+  "title": "نظرات مشتریان حلقه گرادیانت",
+  "category": "نظر مشتری",
+  "format": "HIGHLIGHT",
+  "isVip": true,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "رضایت",
+    "گرادیانت",
+    "حلقه",
+    "VIP"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#18181B"
+  },
+  "elements": [
+    {
+      "id": "el_b8_03_outer_ring",
+      "type": "SHAPE",
+      "x": 0.18,
+      "y": 0.18,
+      "width": 0.64,
+      "height": 0.64,
+      "shapeType": "CIRCLE",
+      "backgroundColor": "#00000000",
+      "borderColor": "#EC4899",
+      "borderWidth": 3.0
+    },
+    {
+      "id": "el_b8_03_inner_disc",
+      "type": "SHAPE",
+      "x": 0.24,
+      "y": 0.24,
+      "width": 0.52,
+      "height": 0.52,
+      "shapeType": "CIRCLE",
+      "backgroundColor": "#27272A",
+      "borderColor": "#8B5CF6",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_b8_03_icon",
+      "type": "TEXT",
+      "x": 0.25,
+      "y": 0.31,
+      "width": 0.5,
+      "height": 0.2,
+      "text": "⭐",
+      "fontSize": 36.0,
+      "textAlign": "CENTER",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "id": "el_b8_03_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.55,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "نظرات مشتریان",
+      "fontSize": 23.0,
+      "fontFamily": "shabnam",
+      "textColor": "#F472B6",
+      "textAlign": "CENTER"
+    }
+  ]
+}

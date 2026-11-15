@@ -1,0 +1,106 @@
+{
+  "id": "tpl_b2_06_diagonal_boutique",
+  "title": "مورب بوتیک زنانه پاییزه",
+  "category": "تخفیف و حراج",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "تخفیف و حراج",
+    "بوتیک",
+    "مورب",
+    "پاییزه",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#3E2723",
+    "gradientColors": [
+      "#4E342E",
+      "#271612"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_boutique_photo",
+      "type": "IMAGE",
+      "x": -0.05,
+      "y": 0.13,
+      "width": 1.1,
+      "height": 0.36,
+      "imageAsset": "boutique_fashion_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "PARALLELOGRAM",
+      "skewAngle": 6.0
+    },
+    {
+      "id": "el_boutique_card",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.51,
+      "width": 0.88,
+      "height": 0.285,
+      "backgroundColor": "#1A100E",
+      "borderColor": "#D7CCC8",
+      "borderWidth": 1.2,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0
+    },
+    {
+      "id": "el_boutique_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.498,
+      "width": 0.84,
+      "height": 0.1484,
+      "text": "حراج پاییزه بوتیک ترند",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_boutique_specs",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.653,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "کالکشن بارانی و پالتوهای شیک پاییزه",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#D7CCC8",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_boutique_price_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.703,
+      "width": 0.84,
+      "height": 0.0581,
+      "text": "قیمت حراج: ۵۸۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFCC80",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_boutique_terms",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "ارسال رایگان برای خریدهای بالا",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#EFEBE9",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

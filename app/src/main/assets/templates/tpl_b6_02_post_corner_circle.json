@@ -1,0 +1,129 @@
+{
+  "id": "tpl_b6_02_post_corner_circle",
+  "title": "معرفی ظروف سرامیکی دست‌ساز",
+  "category": "معرفی محصول",
+  "format": "POST_SQUARE",
+  "isVip": false,
+  "tags": [
+    "معرفی محصول",
+    "سرامیک",
+    "دایره",
+    "صنایع دستی",
+    "پست"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#7C2D12",
+    "gradientColors": [
+      "#9A3412",
+      "#7C2D12"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_b6_02_circle_photo",
+      "type": "IMAGE",
+      "x": 0.44,
+      "y": 0.06,
+      "width": 0.5,
+      "height": 0.5,
+      "imageAsset": "post_handmade_ceramics_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "CIRCLE",
+      "borderColor": "#FED7AA",
+      "borderWidth": 2.5
+    },
+    {
+      "id": "el_b6_02_badge_bg",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.08,
+      "width": 0.34,
+      "height": 0.07,
+      "backgroundColor": "#431407",
+      "borderColor": "#EA580C",
+      "borderWidth": 1.0,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0
+    },
+    {
+      "id": "el_b6_02_badge_txt",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.082,
+      "width": 0.34,
+      "height": 0.068,
+      "text": "صنایع دستی",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#FED7AA",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_b6_02_title",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.17,
+      "width": 0.35,
+      "height": 0.25,
+      "text": "ظروف سفالی ماهور",
+      "fontSize": 24.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "RIGHT",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_b6_02_desc_box",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.59,
+      "width": 0.88,
+      "height": 0.16,
+      "backgroundColor": "#431407",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_b6_02_desc_txt",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.63,
+      "width": 0.84,
+      "height": 0.075,
+      "text": "لعاب طبیعی مقاوم در کوره",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#FED7AA",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_b6_02_pill",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.78,
+      "width": 0.88,
+      "height": 0.12,
+      "backgroundColor": "#F97316",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0
+    },
+    {
+      "id": "el_b6_02_price",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.795,
+      "width": 0.84,
+      "height": 0.1,
+      "text": "ست دوتایی: ۳۸۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#431407",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    }
+  ]
+}

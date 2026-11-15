@@ -1,0 +1,167 @@
+{
+  "id": "tpl_b6_05_post_dominant_type",
+  "title": "تایپوگرافی غالب هدفون بیسیم",
+  "category": "معرفی محصول",
+  "format": "POST_SQUARE",
+  "isVip": true,
+  "tags": [
+    "معرفی محصول",
+    "تایپوگرافی",
+    "هدفون",
+    "دیجیتال",
+    "پست"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#1E1B4B",
+    "gradientColors": [
+      "#312E81",
+      "#1E1B4B"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_b6_05_title",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.065,
+      "width": 0.88,
+      "height": 0.14,
+      "text": "سکوت و صدای ناب",
+      "fontSize": 28.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_b6_05_sub",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.21,
+      "width": 0.88,
+      "height": 0.075,
+      "text": "هدفون بی‌سیم پرچمدار",
+      "fontSize": 15.0,
+      "fontWeight": "BOLD",
+      "textColor": "#A5B4FC",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_b6_05_photo",
+      "type": "IMAGE",
+      "x": 0.06,
+      "y": 0.3,
+      "width": 0.44,
+      "height": 0.45,
+      "imageAsset": "post_wireless_gadget_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "borderColor": "#6366F1",
+      "borderWidth": 1.5
+    },
+    {
+      "id": "el_b6_05_spec1_box",
+      "type": "SHAPE",
+      "x": 0.52,
+      "y": 0.31,
+      "width": 0.42,
+      "height": 0.08,
+      "backgroundColor": "#312E81",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 10.0
+    },
+    {
+      "id": "el_b6_05_spec1_txt",
+      "type": "TEXT",
+      "x": 0.52,
+      "y": 0.315,
+      "width": 0.42,
+      "height": 0.07,
+      "text": "۴۰ ساعت شارژ",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#E0E7FF",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_b6_05_spec2_box",
+      "type": "SHAPE",
+      "x": 0.52,
+      "y": 0.43,
+      "width": 0.42,
+      "height": 0.08,
+      "backgroundColor": "#312E81",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 10.0
+    },
+    {
+      "id": "el_b6_05_spec2_txt",
+      "type": "TEXT",
+      "x": 0.52,
+      "y": 0.435,
+      "width": 0.42,
+      "height": 0.07,
+      "text": "بلوتوث نسخه ۵.۳",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#E0E7FF",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_b6_05_spec3_box",
+      "type": "SHAPE",
+      "x": 0.52,
+      "y": 0.55,
+      "width": 0.42,
+      "height": 0.08,
+      "backgroundColor": "#312E81",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 10.0
+    },
+    {
+      "id": "el_b6_05_spec3_txt",
+      "type": "TEXT",
+      "x": 0.52,
+      "y": 0.555,
+      "width": 0.42,
+      "height": 0.07,
+      "text": "میکروفون شفاف",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#E0E7FF",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_b6_05_pill",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.78,
+      "width": 0.88,
+      "height": 0.12,
+      "backgroundColor": "#4F46E5",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0
+    },
+    {
+      "id": "el_b6_05_price",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.795,
+      "width": 0.88,
+      "height": 0.1,
+      "text": "قیمت: ۱,۸۹۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    }
+  ]
+}

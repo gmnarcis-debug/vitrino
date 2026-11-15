@@ -1,0 +1,129 @@
+{
+  "id": "tpl_b4_03_ramadan_lantern",
+  "title": "ماه مبارک رمضان و ضیافت افطار",
+  "category": "مناسبتی",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "مناسبتی",
+    "رمضان",
+    "افطار",
+    "طاق",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#1E1B4B",
+    "gradientColors": [
+      "#312E81",
+      "#0F0E2A"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_ramadan_arch_bg",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.13,
+      "width": 0.8,
+      "height": 0.35,
+      "backgroundColor": "#3730A3",
+      "shapeType": "ARCH",
+      "cornerRadius": 140.0
+    },
+    {
+      "id": "el_ramadan_photo",
+      "type": "IMAGE",
+      "x": 0.13,
+      "y": 0.145,
+      "width": 0.74,
+      "height": 0.32,
+      "imageAsset": "ramadan_iftar_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ARCH",
+      "cornerRadius": 130.0
+    },
+    {
+      "id": "el_ramadan_badge_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.396,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "طاعات و عبادات شما قبول درگاه حق",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#FDE68A",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_ramadan_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.445,
+      "width": 0.84,
+      "height": 0.1484,
+      "text": "پک افطاری و ضیافت رمضان",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FEF3C7",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_ramadan_sub",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.6,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "خرما پیارم، پنیر تبریز و بامیه سنتی",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#E0E7FF",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_ramadan_pill",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.677,
+      "width": 0.8,
+      "height": 0.09,
+      "backgroundColor": "#D97706",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_ramadan_price",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.65,
+      "width": 0.8,
+      "height": 0.1112,
+      "text": "قیمت پک افطار: ۱۸۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_ramadan_footer_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "توزیع گرم روزانه قبل از اذان مغرب",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#FDE68A",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

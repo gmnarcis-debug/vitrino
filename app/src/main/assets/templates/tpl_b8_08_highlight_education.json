@@ -1,0 +1,68 @@
+{
+  "id": "tpl_b8_08_highlight_education",
+  "title": "آموزش و نکات کرافت و چسب",
+  "category": "اطلاعیه",
+  "format": "HIGHLIGHT",
+  "isVip": false,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "آموزش",
+    "کرافت",
+    "کاغذ"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#D7CCC8"
+  },
+  "elements": [
+    {
+      "id": "el_b8_08_kraft_paper",
+      "type": "SHAPE",
+      "x": 0.2,
+      "y": 0.22,
+      "width": 0.6,
+      "height": 0.58,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "backgroundColor": "#EFEBE9",
+      "borderColor": "#8D6E63",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_b8_08_washi_tape",
+      "type": "SHAPE",
+      "x": 0.32,
+      "y": 0.18,
+      "width": 0.36,
+      "height": 0.08,
+      "shapeType": "PARALLELOGRAM",
+      "backgroundColor": "#A1887F"
+    },
+    {
+      "id": "el_b8_08_bulb",
+      "type": "TEXT",
+      "x": 0.22,
+      "y": 0.32,
+      "width": 0.56,
+      "height": 0.18,
+      "text": "💡",
+      "fontSize": 36.0,
+      "textAlign": "CENTER",
+      "textColor": "#3E2723"
+    },
+    {
+      "id": "el_b8_08_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.56,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "نکات آموزشی",
+      "fontSize": 22.0,
+      "fontFamily": "shabnam",
+      "textColor": "#3E2723",
+      "textAlign": "CENTER"
+    }
+  ]
+}

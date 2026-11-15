@@ -1,0 +1,114 @@
+{
+  "id": "tpl_b5_01_review_circle",
+  "title": "رضایت مشتری از آنباکسینگ",
+  "category": "نظر مشتری",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "نظر مشتری",
+    "رضایت",
+    "آنباکسینگ",
+    "دایره",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#FAF6F0",
+    "gradientColors": [
+      "#FAF6F0",
+      "#F3EDE2"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_unboxing_circle_ring",
+      "type": "SHAPE",
+      "x": 0.16,
+      "y": 0.13,
+      "width": 0.68,
+      "height": 0.32,
+      "borderColor": "#D4A373",
+      "borderWidth": 2.0,
+      "shapeType": "CIRCLE"
+    },
+    {
+      "id": "el_unboxing_circle_photo",
+      "type": "IMAGE",
+      "x": 0.18,
+      "y": 0.14,
+      "width": 0.64,
+      "height": 0.3,
+      "imageAsset": "customer_unboxing_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "CIRCLE"
+    },
+    {
+      "id": "el_stars_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.429,
+      "width": 0.84,
+      "height": 0.0581,
+      "text": "★★★★★",
+      "fontSize": 20.0,
+      "fontWeight": "BOLD",
+      "textColor": "#92400E",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_rev_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.494,
+      "width": 0.84,
+      "height": 0.1431,
+      "text": "آنباکسینگ سفارش مشتری عزیز",
+      "fontSize": 26.0,
+      "fontWeight": "BLACK",
+      "textColor": "#2D241E",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_rev_quote",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.644,
+      "width": 0.84,
+      "height": 0.0794,
+      "text": "کیفیت بسته‌بندی عالی و ارسال سریع بود",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#635043",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_rev_pill",
+      "type": "SHAPE",
+      "x": 0.12,
+      "y": 0.725,
+      "width": 0.84,
+      "height": 0.065,
+      "backgroundColor": "#78350F",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_buyer_name",
+      "type": "TEXT",
+      "x": 0.12,
+      "y": 0.735,
+      "width": 0.84,
+      "height": 0.045,
+      "text": "سپاس از اعتماد شما همراهان",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

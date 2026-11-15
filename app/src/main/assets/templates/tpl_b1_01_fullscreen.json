@@ -1,0 +1,143 @@
+{
+  "id": "tpl_b1_01_fullscreen",
+  "title": "تمام‌صفحه ساعت سوئیسی",
+  "category": "معرفی محصول",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "معرفی محصول",
+    "ساعت",
+    "تمام صفحه",
+    "لوکس",
+    "استوری"
+  ],
+  "background": {
+    "type": "IMAGE",
+    "color": "#070514",
+    "imageAsset": "jewelry_01.webp",
+    "overlayColors": [
+      "#1A000000",
+      "#F0080612"
+    ],
+    "overlayAlpha": 0.75
+  },
+  "elements": [
+    {
+      "id": "el_bg_photo",
+      "type": "IMAGE",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 1.0,
+      "imageAsset": "jewelry_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "RECTANGLE"
+    },
+    {
+      "id": "el_dark_gradient",
+      "type": "SHAPE",
+      "x": 0.0,
+      "y": 0.38,
+      "width": 1.0,
+      "height": 0.62,
+      "backgroundColor": "#EE070514",
+      "shapeType": "RECTANGLE"
+    },
+    {
+      "id": "el_brand_tag",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.44,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "کالکشن پاییزه سوئیس",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#C4B5FD",
+      "textAlign": "RIGHT",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_main_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.495,
+      "width": 0.84,
+      "height": 0.0794,
+      "text": "ساعت سوئیسی اصل",
+      "fontSize": 28.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "RIGHT",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_specs",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.58,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "ضدآب تا ۵۰ متر با موتور کوارتز اصل",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#E2E8F0",
+      "textAlign": "RIGHT",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_highlight_badge",
+      "type": "SHAPE",
+      "x": 0.08,
+      "y": 0.63,
+      "width": 0.84,
+      "height": 0.053,
+      "backgroundColor": "#231B40",
+      "borderColor": "#7C3AED",
+      "borderWidth": 1.0,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 10.0
+    },
+    {
+      "id": "el_highlight_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.635,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "همراه با جعبه چوبی و ضمانت‌نامه",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#E9D5FF",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_price_pill",
+      "type": "SHAPE",
+      "x": 0.08,
+      "y": 0.7,
+      "width": 0.84,
+      "height": 0.053,
+      "backgroundColor": "#7C3AED",
+      "borderColor": "#FFFFFF",
+      "borderWidth": 1.5,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0
+    },
+    {
+      "id": "el_price_amount",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.7,
+      "width": 0.84,
+      "height": 0.053,
+      "text": "عیدی ویژه: ۵۰,۰۰۰ تومان",
+      "fontSize": 18.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    }
+  ]
+}

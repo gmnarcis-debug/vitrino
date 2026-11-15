@@ -1,0 +1,58 @@
+{
+  "id": "tpl_b8_05_highlight_about",
+  "title": "درباره ما پنجره طاقی",
+  "category": "اطلاعیه",
+  "format": "HIGHLIGHT",
+  "isVip": false,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "درباره ما",
+    "طاق",
+    "معماری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#F5F3EF"
+  },
+  "elements": [
+    {
+      "id": "el_b8_05_arch",
+      "type": "SHAPE",
+      "x": 0.22,
+      "y": 0.18,
+      "width": 0.56,
+      "height": 0.64,
+      "shapeType": "ARCH",
+      "cornerRadius": 120.0,
+      "backgroundColor": "#E7E2D8",
+      "borderColor": "#78716C",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_b8_05_icon",
+      "type": "TEXT",
+      "x": 0.24,
+      "y": 0.3,
+      "width": 0.52,
+      "height": 0.18,
+      "text": "🌿",
+      "fontSize": 36.0,
+      "textAlign": "CENTER",
+      "textColor": "#292524"
+    },
+    {
+      "id": "el_b8_05_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.56,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "درباره ما",
+      "fontSize": 23.0,
+      "fontFamily": "shabnam",
+      "textColor": "#292524",
+      "textAlign": "CENTER"
+    }
+  ]
+}

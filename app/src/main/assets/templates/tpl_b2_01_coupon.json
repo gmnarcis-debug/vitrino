@@ -1,0 +1,133 @@
+{
+  "id": "tpl_b2_01_coupon",
+  "title": "کوپن تخفیف عطر بلک رز",
+  "category": "تخفیف و حراج",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "تخفیف و حراج",
+    "کوپن",
+    "عطر",
+    "کرم",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#FEF3C7",
+    "gradientColors": [
+      "#FFFBEB",
+      "#FDE68A"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_coupon_body",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.13,
+      "width": 0.88,
+      "height": 0.67,
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#D97706",
+      "borderWidth": 1.5,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 18.0
+    },
+    {
+      "id": "el_header_badge",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.145,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "کارت تخفیف خرید اول",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#B45309",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_perfume_pic",
+      "type": "IMAGE",
+      "x": 0.14,
+      "y": 0.19,
+      "width": 0.72,
+      "height": 0.28,
+      "imageAsset": "perfume_bottle_glass_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_main_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.485,
+      "width": 0.84,
+      "height": 0.0767,
+      "text": "ادکلن لوکس بلک رز",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#1F2937",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_price_deal",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.574,
+      "width": 0.84,
+      "height": 0.1112,
+      "text": "قیمت با تخفیف: ۴۸۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#9A3412",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_code_box",
+      "type": "SHAPE",
+      "x": 0.16,
+      "y": 0.63,
+      "width": 0.68,
+      "height": 0.055,
+      "backgroundColor": "#FEF3C7",
+      "borderColor": "#D97706",
+      "borderWidth": 1.2,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0
+    },
+    {
+      "id": "el_code_text",
+      "type": "TEXT",
+      "x": 0.16,
+      "y": 0.697,
+      "width": 0.68,
+      "height": 0.0581,
+      "text": "کد تخفیف: عطر۵۰",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#92400E",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_expire_hint",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "مهلت استفاده تا پایان این هفته",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#374151",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

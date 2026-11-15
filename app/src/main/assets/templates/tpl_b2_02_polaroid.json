@@ -1,0 +1,105 @@
+{
+  "id": "tpl_b2_02_polaroid",
+  "title": "پولاروید حراج پوشاک زنانه",
+  "category": "تخفیف و حراج",
+  "format": "STORY",
+  "isVip": true,
+  "tags": [
+    "تخفیف و حراج",
+    "پولاروید",
+    "پوشاک",
+    "روشن",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#F3F4F6",
+    "gradientColors": [
+      "#F9FAFB",
+      "#E5E7EB"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_polaroid_card",
+      "type": "SHAPE",
+      "x": 0.08,
+      "y": 0.13,
+      "width": 0.84,
+      "height": 0.46,
+      "backgroundColor": "#FFFFFF",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 6.0,
+      "hasShadow": true,
+      "shadowColor": "#20000000"
+    },
+    {
+      "id": "el_polaroid_photo",
+      "type": "IMAGE",
+      "x": 0.12,
+      "y": 0.145,
+      "width": 0.76,
+      "height": 0.355,
+      "imageAsset": "fashion_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "RECTANGLE"
+    },
+    {
+      "id": "el_polaroid_handwriting",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.496,
+      "width": 0.8,
+      "height": 0.0448,
+      "text": "کالکشن بهاره • حراج پایان فصل",
+      "fontSize": 15.0,
+      "fontWeight": "BOLD",
+      "textColor": "#374151",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_sale_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.547,
+      "width": 0.84,
+      "height": 0.1484,
+      "text": "تخفیف بزرگ تا ۵۰٪ روی پوشاک",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#111827",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_price_row",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.703,
+      "width": 0.84,
+      "height": 0.0581,
+      "text": "قیمت حراج: ۳۵۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#991B1B",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_urgency_tag",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "تعداد اقلام حراج محدود است",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#4B5563",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

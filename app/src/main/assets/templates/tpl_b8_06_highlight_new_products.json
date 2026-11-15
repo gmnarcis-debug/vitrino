@@ -1,0 +1,57 @@
+{
+  "id": "tpl_b8_06_highlight_new_products",
+  "title": "محصولات جدید شش‌ضلعی هندسی",
+  "category": "معرفی محصول",
+  "format": "HIGHLIGHT",
+  "isVip": false,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "محصولات جدید",
+    "شش‌ضلعی",
+    "هندسی"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#064E3B"
+  },
+  "elements": [
+    {
+      "id": "el_b8_06_hexagon",
+      "type": "SHAPE",
+      "x": 0.18,
+      "y": 0.18,
+      "width": 0.64,
+      "height": 0.64,
+      "shapeType": "HEXAGON",
+      "backgroundColor": "#047857",
+      "borderColor": "#34D399",
+      "borderWidth": 2.5
+    },
+    {
+      "id": "el_b8_06_sparkle",
+      "type": "TEXT",
+      "x": 0.24,
+      "y": 0.29,
+      "width": 0.52,
+      "height": 0.2,
+      "text": "✨",
+      "fontSize": 38.0,
+      "textAlign": "CENTER",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "id": "el_b8_06_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.54,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "محصولات جدید",
+      "fontSize": 22.0,
+      "fontFamily": "shabnam",
+      "textColor": "#ECFDF5",
+      "textAlign": "CENTER"
+    }
+  ]
+}

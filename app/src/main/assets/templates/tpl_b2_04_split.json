@@ -1,0 +1,104 @@
+{
+  "id": "tpl_b2_04_split",
+  "title": "نیم‌نیم باکس گل لاله",
+  "category": "تخفیف و حراج",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "تخفیف و حراج",
+    "نیم‌نیم",
+    "گل",
+    "پاستلی",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#F3E8FF",
+    "gradientColors": [
+      "#FAF5FF",
+      "#E9D5FF"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_split_img",
+      "type": "IMAGE",
+      "x": 0.08,
+      "y": 0.13,
+      "width": 0.84,
+      "height": 0.35,
+      "imageAsset": "flower_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0
+    },
+    {
+      "id": "el_split_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.445,
+      "width": 0.84,
+      "height": 0.1484,
+      "text": "تخفیف ۳۰٪ باکس گل طبیعی",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#581C87",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_split_specs",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.6,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "لاله‌های تازه هلندی با دیزاین شیک",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#6B21A8",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_split_price_pill",
+      "type": "SHAPE",
+      "x": 0.08,
+      "y": 0.642,
+      "width": 0.84,
+      "height": 0.08,
+      "backgroundColor": "#7E22CE",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_split_price",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.655,
+      "width": 0.84,
+      "height": 0.055,
+      "text": "باکس رز: ۴۹۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_split_delivery",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "ارسال فوری همراه با کارت تبریک",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#7E22CE",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

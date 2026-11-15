@@ -1,0 +1,130 @@
+{
+  "id": "tpl_b2_05_hexagon",
+  "title": "شش‌ضلعی کیک تولد شکلاتی",
+  "category": "تخفیف و حراج",
+  "format": "STORY",
+  "isVip": true,
+  "tags": [
+    "تخفیف و حراج",
+    "شش‌ضلعی",
+    "کیک",
+    "قرمز",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#991B1B",
+    "gradientColors": [
+      "#B91C1C",
+      "#7F1D1D"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_hex_badge",
+      "type": "SHAPE",
+      "x": 0.25,
+      "y": 0.135,
+      "width": 0.5,
+      "height": 0.045,
+      "backgroundColor": "#FEF2F2",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0
+    },
+    {
+      "id": "el_hex_badge_top",
+      "type": "TEXT",
+      "x": 0.25,
+      "y": 0.138,
+      "width": 0.5,
+      "height": 0.038,
+      "text": "فستیوال تخفیف",
+      "fontSize": 14.0,
+      "fontWeight": "BLACK",
+      "textColor": "#991B1B",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_hex_photo",
+      "type": "IMAGE",
+      "x": 0.16,
+      "y": 0.19,
+      "width": 0.68,
+      "height": 0.28,
+      "imageAsset": "cake_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "HEXAGON",
+      "borderColor": "#FCA5A5",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_burger_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.45,
+      "width": 0.84,
+      "height": 0.1431,
+      "text": "تخفیف ۲۵٪ کیک شکلاتی بلژیکی",
+      "fontSize": 26.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_burger_specs",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.6,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "نت‌های طعمی: کارامل، مرکبات و یاس",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#FEE2E2",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_hex_pill",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.627,
+      "width": 0.8,
+      "height": 0.09,
+      "backgroundColor": "#FEF2F2",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_burger_price",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.645,
+      "width": 0.8,
+      "height": 0.055,
+      "text": "قیمت کیلو: ۲۲۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#991B1B",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_burger_fries_combo",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "شمع و کارد برش هدیه روی سفارش",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#FECACA",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

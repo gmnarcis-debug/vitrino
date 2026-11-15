@@ -1,0 +1,115 @@
+{
+  "id": "tpl_b3_04_order_arch",
+  "title": "ثبت سفارش کیک مجلسی",
+  "category": "سفارش‌گیری",
+  "format": "STORY",
+  "isVip": true,
+  "tags": [
+    "سفارش‌گیری",
+    "کیک",
+    "سفارش",
+    "طاق",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#FFF1F2",
+    "gradientColors": [
+      "#FFF1F2",
+      "#FFE4E6"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_cake_arch_bg",
+      "type": "SHAPE",
+      "x": 0.12,
+      "y": 0.13,
+      "width": 0.76,
+      "height": 0.35,
+      "backgroundColor": "#FECDD3",
+      "shapeType": "ARCH",
+      "cornerRadius": 130.0
+    },
+    {
+      "id": "el_cake_photo",
+      "type": "IMAGE",
+      "x": 0.15,
+      "y": 0.145,
+      "width": 0.7,
+      "height": 0.32,
+      "imageAsset": "tiered_wedding_cake_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ARCH",
+      "cornerRadius": 120.0
+    },
+    {
+      "id": "el_order_arch_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.408,
+      "width": 0.84,
+      "height": 0.1484,
+      "text": "سفارش کیک تولد و عقد",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#881337",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_step1_text",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.563,
+      "width": 0.84,
+      "height": 0.0794,
+      "text": "پخت روز با خامه تازه و فیلینگ اختصاصی میوه",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#9F1239",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_order_pill",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.627,
+      "width": 0.8,
+      "height": 0.09,
+      "backgroundColor": "#BE123C",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_order_price",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.645,
+      "width": 0.8,
+      "height": 0.055,
+      "text": "قیمت کیلو: ۴۵۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_order_notice",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "ثبت سفارش ۳ روز قبل از مراسم",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#881337",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

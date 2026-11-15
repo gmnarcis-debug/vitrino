@@ -1,0 +1,135 @@
+{
+  "id": "tpl_b5_06_announcement_lottery",
+  "title": "اعلام برندگان قرعه‌کشی ماهانه",
+  "category": "اطلاعیه",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "اطلاعیه",
+    "قرعه‌کشی",
+    "جوایز",
+    "طلایی",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#1A0A10",
+    "gradientColors": [
+      "#2A0F1B",
+      "#0E0409"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_lottery_border",
+      "type": "SHAPE",
+      "x": 0.05,
+      "y": 0.13,
+      "width": 0.9,
+      "height": 0.67,
+      "borderColor": "#FBBF24",
+      "borderWidth": 1.5,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "opacity": 0.75
+    },
+    {
+      "id": "el_lottery_badge",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.145,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "قرعه‌کشی بزرگ ماهانه خریداران",
+      "fontSize": 14.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FDE68A",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_lottery_photo",
+      "type": "IMAGE",
+      "x": 0.14,
+      "y": 0.19,
+      "width": 0.72,
+      "height": 0.27,
+      "imageAsset": "golden_gift_lottery_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0,
+      "borderColor": "#FBBF24",
+      "borderWidth": 2.0,
+      "hasShadow": true,
+      "shadowColor": "#60000000"
+    },
+    {
+      "id": "el_lottery_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.413,
+      "width": 0.84,
+      "height": 0.1431,
+      "text": "اعلام برندگان و جوایز این ماه",
+      "fontSize": 26.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFBEB",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_lottery_prizes",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.563,
+      "width": 0.84,
+      "height": 0.0794,
+      "text": "سه کارت هدیه یک میلیون تومانی و جوایز نقدی",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#FDE68A",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_lottery_pill",
+      "type": "SHAPE",
+      "x": 0.1,
+      "y": 0.617,
+      "width": 0.8,
+      "height": 0.09,
+      "backgroundColor": "#D97706",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_lottery_date",
+      "type": "TEXT",
+      "x": 0.1,
+      "y": 0.65,
+      "width": 0.8,
+      "height": 0.1112,
+      "text": "زمان قرعه‌کشی: جمعه ساعت ۲۱",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_lottery_footer",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "شرط شرکت: ثبت یک سفارش در این ماه",
+      "fontSize": 14.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FEF3C7",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

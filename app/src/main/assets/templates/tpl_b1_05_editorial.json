@@ -1,0 +1,107 @@
+{
+  "id": "tpl_b1_05_editorial",
+  "title": "ادیتوریال کیف چرم دست‌دوز",
+  "category": "معرفی محصول",
+  "format": "STORY",
+  "isVip": true,
+  "tags": [
+    "معرفی محصول",
+    "کیف",
+    "چرم",
+    "ادیتوریال",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#F4F6F4",
+    "gradientColors": [
+      "#FFFFFF",
+      "#E9EFE9"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_editorial_edition",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.135,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "کالکشن بهار • چرم طبیعی تبریز",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#4A5D4E",
+      "textAlign": "RIGHT",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_editorial_frame",
+      "type": "IMAGE",
+      "x": 0.08,
+      "y": 0.18,
+      "width": 0.84,
+      "height": 0.32,
+      "imageAsset": "bag_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0
+    },
+    {
+      "id": "el_product_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.397,
+      "width": 0.84,
+      "height": 0.1484,
+      "text": "کیف دوشی مینیمال چرم",
+      "fontSize": 27.0,
+      "fontWeight": "BLACK",
+      "textColor": "#1C2820",
+      "textAlign": "RIGHT",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_minimal_specs",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.552,
+      "width": 0.84,
+      "height": 0.0794,
+      "text": "دوخت کاملاً دستی با یراق‌آلات برنجی ضدزنگ",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#4A5D4E",
+      "textAlign": "RIGHT",
+      "fontFamily": "vazirmatn"
+    },
+    {
+      "id": "el_editorial_price",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.639,
+      "width": 0.84,
+      "height": 0.1219,
+      "text": "شروع قیمت از ۲۰۰,۰۰۰ تومان",
+      "fontSize": 22.0,
+      "fontWeight": "BLACK",
+      "textColor": "#2D4436",
+      "textAlign": "RIGHT",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_edition_tag",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.768,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "تولید محدود به ۵۰ عدد در کل کشور",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#1E3A2F",
+      "textAlign": "RIGHT",
+      "fontFamily": "sahel"
+    }
+  ]
+}

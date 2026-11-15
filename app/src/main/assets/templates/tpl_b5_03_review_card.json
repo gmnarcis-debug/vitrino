@@ -1,0 +1,133 @@
+{
+  "id": "tpl_b5_03_review_card",
+  "title": "گواهی رضایت و نظر مشتری ویژه",
+  "category": "نظر مشتری",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "نظر مشتری",
+    "کارت",
+    "گواهی",
+    "طلایی",
+    "استوری"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#FEFCE8",
+    "gradientColors": [
+      "#FFFBEB",
+      "#FEF08A"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_cert_card_border",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.13,
+      "width": 0.88,
+      "height": 0.67,
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#EAB308",
+      "borderWidth": 1.5,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 18.0
+    },
+    {
+      "id": "el_cert_header",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.145,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "باشگاه مشتریان وفادار",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#A16207",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_cert_photo",
+      "type": "IMAGE",
+      "x": 0.14,
+      "y": 0.19,
+      "width": 0.72,
+      "height": 0.28,
+      "imageAsset": "customer_happy_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_cert_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.485,
+      "width": 0.84,
+      "height": 0.1378,
+      "text": "تجربه خرید حضوری و شیرین",
+      "fontSize": 25.0,
+      "fontWeight": "BLACK",
+      "textColor": "#1F2937",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_cert_quote",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.631,
+      "width": 0.84,
+      "height": 0.0422,
+      "text": "برخورد پرسنل عالی و کیفیت عالی بود",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#4B5563",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_cert_gift_box",
+      "type": "SHAPE",
+      "x": 0.16,
+      "y": 0.622,
+      "width": 0.68,
+      "height": 0.09,
+      "backgroundColor": "#FEF9C3",
+      "borderColor": "#EAB308",
+      "borderWidth": 1.0,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0
+    },
+    {
+      "id": "el_cert_code_text",
+      "type": "TEXT",
+      "x": 0.16,
+      "y": 0.681,
+      "width": 0.68,
+      "height": 0.0422,
+      "text": "هدیه خرید مجدد: کد تخفیف ویژه",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#854D0E",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_cert_date",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.731,
+      "width": 0.84,
+      "height": 0.0794,
+      "text": "ثبت‌شده در باشگاه مشتریان • با افتخار",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#6B7280",
+      "textAlign": "CENTER",
+      "fontFamily": "vazirmatn"
+    }
+  ]
+}

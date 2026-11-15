@@ -1,0 +1,58 @@
+{
+  "id": "tpl_b8_02_highlight_order",
+  "title": "ثبت سفارش تایپوگرافی مونوگرام",
+  "category": "سفارش‌گیری",
+  "format": "HIGHLIGHT",
+  "isVip": false,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "سفارش",
+    "مونوگرام",
+    "تایپوگرافی"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#0F172A"
+  },
+  "elements": [
+    {
+      "id": "el_b8_02_disc",
+      "type": "SHAPE",
+      "x": 0.22,
+      "y": 0.22,
+      "width": 0.56,
+      "height": 0.56,
+      "shapeType": "CIRCLE",
+      "backgroundColor": "#1E293B",
+      "borderColor": "#38BDF8",
+      "borderWidth": 1.5
+    },
+    {
+      "id": "el_b8_02_monogram",
+      "type": "TEXT",
+      "x": 0.2,
+      "y": 0.22,
+      "width": 0.6,
+      "height": 0.35,
+      "text": "س",
+      "fontSize": 72.0,
+      "fontFamily": "lalezar",
+      "textColor": "#38BDF8",
+      "textAlign": "CENTER"
+    },
+    {
+      "id": "el_b8_02_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.58,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "ثبت سفارش",
+      "fontSize": 23.0,
+      "fontFamily": "vazirmatn",
+      "textColor": "#F8FAFC",
+      "textAlign": "CENTER"
+    }
+  ]
+}

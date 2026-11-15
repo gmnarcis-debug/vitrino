@@ -1,0 +1,57 @@
+{
+  "id": "tpl_b8_11_highlight_portfolio",
+  "title": "نمونه‌کارها پاستلی آبرنگی",
+  "category": "معرفی محصول",
+  "format": "HIGHLIGHT",
+  "isVip": false,
+  "tags": [
+    "هایلایت",
+    "کاور",
+    "نمونه کار",
+    "پاستلی",
+    "آبرنگ"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#F3E8FF"
+  },
+  "elements": [
+    {
+      "id": "el_b8_11_capsule",
+      "type": "SHAPE",
+      "x": 0.2,
+      "y": 0.19,
+      "width": 0.6,
+      "height": 0.62,
+      "shapeType": "CAPSULE",
+      "backgroundColor": "#E9D5FF",
+      "borderColor": "#C084FC",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_b8_11_palette",
+      "type": "TEXT",
+      "x": 0.22,
+      "y": 0.3,
+      "width": 0.56,
+      "height": 0.18,
+      "text": "🎨",
+      "fontSize": 38.0,
+      "textAlign": "CENTER",
+      "textColor": "#581C87"
+    },
+    {
+      "id": "el_b8_11_title",
+      "type": "TEXT",
+      "x": 0.18,
+      "y": 0.54,
+      "width": 0.64,
+      "height": 0.12,
+      "text": "نمونه‌کارها",
+      "fontSize": 23.0,
+      "fontFamily": "shabnam",
+      "textColor": "#581C87",
+      "textAlign": "CENTER"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "tpl_b7_02_story_fathers_minimal",
+  "title": "تبریک روز پدر مینیمال ساعت",
+  "category": "تبریک",
+  "format": "STORY",
+  "isVip": true,
+  "tags": [
+    "تبریک",
+    "روز پدر",
+    "ساعت",
+    "مینیمال",
+    "استوری"
+  ],
+  "background": {
+    "type": "GRADIENT",
+    "color": "#F1F5F9",
+    "gradientColors": [
+      "#E2E8F0",
+      "#F1F5F9"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_b7_02_badge_bg",
+      "type": "SHAPE",
+      "x": 0.25,
+      "y": 0.14,
+      "width": 0.5,
+      "height": 0.045,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "backgroundColor": "#E2E8F0",
+      "borderColor": "#CBD5E1",
+      "borderWidth": 1.0
+    },
+    {
+      "id": "el_b7_02_badge_txt",
+      "type": "TEXT",
+      "x": 0.25,
+      "y": 0.14,
+      "width": 0.5,
+      "height": 0.045,
+      "text": "گرامی‌داشت مقام پدر 👔",
+      "fontSize": 13.0,
+      "fontFamily": "vazirmatn",
+      "textColor": "#0F172A",
+      "backgroundColor": "#E2E8F0",
+      "textAlign": "CENTER"
+    },
+    {
+      "id": "el_b7_02_photo",
+      "type": "IMAGE",
+      "x": 0.1,
+      "y": 0.2,
+      "width": 0.8,
+      "height": 0.38,
+      "imageAsset": "fathers_watch_tie_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 24.0,
+      "borderColor": "#CBD5E1",
+      "borderWidth": 1.5
+    },
+    {
+      "id": "el_b7_02_title",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.6,
+      "width": 0.84,
+      "height": 0.13,
+      "text": "پدر، تکیه‌گاه محکم زندگی",
+      "fontSize": 24.0,
+      "fontFamily": "shabnam",
+      "textColor": "#0F172A",
+      "textAlign": "CENTER"
+    },
+    {
+      "id": "el_b7_02_subtitle",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.73,
+      "width": 0.84,
+      "height": 0.08,
+      "text": "سایه پرمهرت تا ابد بر سرمان مستدام باد",
+      "fontSize": 15.0,
+      "fontFamily": "vazirmatn",
+      "textColor": "#334155",
+      "textAlign": "CENTER"
+    }
+  ]
+}

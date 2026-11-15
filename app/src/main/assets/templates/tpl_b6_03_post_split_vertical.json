@@ -1,0 +1,133 @@
+{
+  "id": "tpl_b6_03_post_split_vertical",
+  "title": "ساعت لوکس کرونوگراف",
+  "category": "معرفی محصول",
+  "format": "POST_SQUARE",
+  "isVip": true,
+  "tags": [
+    "معرفی محصول",
+    "ساعت",
+    "نیمه‌نیم",
+    "لوکس",
+    "پست"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#0F172A",
+    "gradientColors": [
+      "#1E293B",
+      "#0F172A"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_b6_03_photo",
+      "type": "IMAGE",
+      "x": 0.5,
+      "y": 0.06,
+      "width": 0.44,
+      "height": 0.88,
+      "imageAsset": "post_luxury_watch_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "borderColor": "#334155",
+      "borderWidth": 1.5
+    },
+    {
+      "id": "el_b6_03_badge_box",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.07,
+      "width": 0.4,
+      "height": 0.07,
+      "backgroundColor": "#1E293B",
+      "borderColor": "#0369A1",
+      "borderWidth": 1.0,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 8.0
+    },
+    {
+      "id": "el_b6_03_badge_txt",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.072,
+      "width": 0.4,
+      "height": 0.068,
+      "text": "کالکشن ۲۰۲۵",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#38BDF8",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_b6_03_title",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.16,
+      "width": 0.4,
+      "height": 0.24,
+      "text": "کرونوگراف زمردی",
+      "fontSize": 24.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "RIGHT",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_b6_03_spec1",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.42,
+      "width": 0.4,
+      "height": 0.07,
+      "text": "موتور سوییسی",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#94A3B8",
+      "textAlign": "RIGHT",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_b6_03_spec2",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.51,
+      "width": 0.4,
+      "height": 0.07,
+      "text": "شیشه یاقوت",
+      "fontSize": 14.0,
+      "fontWeight": "MEDIUM",
+      "textColor": "#94A3B8",
+      "textAlign": "RIGHT",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_b6_03_price_box",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.62,
+      "width": 0.4,
+      "height": 0.25,
+      "backgroundColor": "#0369A1",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 12.0
+    },
+    {
+      "id": "el_b6_03_price",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.64,
+      "width": 0.4,
+      "height": 0.21,
+      "text": "۴,۸۵۰,۰۰۰\nتومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    }
+  ]
+}

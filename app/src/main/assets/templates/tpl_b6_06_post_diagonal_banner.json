@@ -1,0 +1,107 @@
+{
+  "id": "tpl_b6_06_post_diagonal_banner",
+  "title": "حراج کتانی ورزشی با بنر مورب",
+  "category": "تخفیف و حراج",
+  "format": "POST_SQUARE",
+  "isVip": false,
+  "tags": [
+    "تخفیف و حراج",
+    "مورب",
+    "کتانی",
+    "حراج",
+    "پست"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#C2410C",
+    "gradientColors": [
+      "#EA580C",
+      "#C2410C"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_b6_06_photo",
+      "type": "IMAGE",
+      "x": 0.06,
+      "y": 0.06,
+      "width": 0.88,
+      "height": 0.52,
+      "imageAsset": "post_sneakers_sale_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 18.0,
+      "borderColor": "#FFEDD5",
+      "borderWidth": 2.0
+    },
+    {
+      "id": "el_b6_06_banner_bg",
+      "type": "SHAPE",
+      "x": 0.06,
+      "y": 0.38,
+      "width": 0.88,
+      "height": 0.16,
+      "backgroundColor": "#DC2626",
+      "borderColor": "#FEF08A",
+      "borderWidth": 1.5,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0,
+      "rotation": -5.0
+    },
+    {
+      "id": "el_b6_06_banner_txt",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.39,
+      "width": 0.84,
+      "height": 0.15,
+      "text": "٪۵۰ حراج ویژه",
+      "fontSize": 30.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar",
+      "rotation": -5.0
+    },
+    {
+      "id": "el_b6_06_title",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.62,
+      "width": 0.88,
+      "height": 0.12,
+      "text": "کتانی رانینگ اسپرت",
+      "fontSize": 24.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FFFFFF",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_b6_06_pill",
+      "type": "SHAPE",
+      "x": 0.08,
+      "y": 0.78,
+      "width": 0.84,
+      "height": 0.12,
+      "backgroundColor": "#FEF08A",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0
+    },
+    {
+      "id": "el_b6_06_price",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.795,
+      "width": 0.84,
+      "height": 0.1,
+      "text": "قیمت نهایی: ۷۵۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#7C2D12",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    }
+  ]
+}

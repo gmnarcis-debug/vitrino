@@ -1,0 +1,92 @@
+{
+  "id": "tpl_b7_01_story_mothers_ribbon",
+  "title": "تبریک روز مادر گل و ریبون",
+  "category": "تبریک",
+  "format": "STORY",
+  "isVip": false,
+  "tags": [
+    "تبریک",
+    "روز مادر",
+    "گل",
+    "ریبون",
+    "استوری"
+  ],
+  "background": {
+    "type": "GRADIENT",
+    "color": "#FFF8F6",
+    "gradientColors": [
+      "#FFF0ED",
+      "#FFF8F6"
+    ],
+    "angle": 135.0
+  },
+  "elements": [
+    {
+      "id": "el_b7_01_badge_bg",
+      "type": "SHAPE",
+      "x": 0.28,
+      "y": 0.14,
+      "width": 0.44,
+      "height": 0.045,
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "backgroundColor": "#FFE4E6",
+      "borderColor": "#FDA4AF",
+      "borderWidth": 1.0
+    },
+    {
+      "id": "el_b7_01_badge_txt",
+      "type": "TEXT",
+      "x": 0.28,
+      "y": 0.14,
+      "width": 0.44,
+      "height": 0.045,
+      "text": "روز مادر مبارک 🌸",
+      "fontSize": 14.0,
+      "fontFamily": "vazirmatn",
+      "textColor": "#881337",
+      "backgroundColor": "#FFE4E6",
+      "textAlign": "CENTER"
+    },
+    {
+      "id": "el_b7_01_photo",
+      "type": "IMAGE",
+      "x": 0.12,
+      "y": 0.2,
+      "width": 0.76,
+      "height": 0.38,
+      "imageAsset": "mothers_tulips_gift_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ARCH",
+      "cornerRadius": 32.0,
+      "borderColor": "#FECDD3",
+      "borderWidth": 2.5
+    },
+    {
+      "id": "el_b7_01_title",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.6,
+      "width": 0.88,
+      "height": 0.13,
+      "text": "مادر، زیباترین هدیه خداوند",
+      "fontSize": 24.0,
+      "fontFamily": "shabnam",
+      "textColor": "#881337",
+      "textAlign": "CENTER"
+    },
+    {
+      "id": "el_b7_01_subtitle",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.73,
+      "width": 0.88,
+      "height": 0.08,
+      "text": "تمام هستی من در نگاه پرمهرت خلاصه می‌شود",
+      "fontSize": 15.0,
+      "fontFamily": "vazirmatn",
+      "textColor": "#9F1239",
+      "textAlign": "CENTER"
+    }
+  ]
+}

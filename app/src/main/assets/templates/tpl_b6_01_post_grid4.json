@@ -1,0 +1,91 @@
+{
+  "id": "tpl_b6_01_post_grid4",
+  "title": "کلاژ ۴ محصول اکسسوری لوکس",
+  "category": "معرفی محصول",
+  "format": "POST_SQUARE",
+  "isVip": false,
+  "tags": [
+    "معرفی محصول",
+    "کلاژ",
+    "اکسسوری",
+    "پست"
+  ],
+  "background": {
+    "type": "SOLID",
+    "color": "#FDFBF7",
+    "gradientColors": [
+      "#FDFBF7",
+      "#F5EBE1"
+    ],
+    "angle": 180.0
+  },
+  "elements": [
+    {
+      "id": "el_b6_01_badge",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.065,
+      "width": 0.84,
+      "height": 0.07,
+      "text": "کالکشن جدید بهاره",
+      "fontSize": 14.0,
+      "fontWeight": "BOLD",
+      "textColor": "#78350F",
+      "textAlign": "CENTER",
+      "fontFamily": "sahel"
+    },
+    {
+      "id": "el_b6_01_title",
+      "type": "TEXT",
+      "x": 0.06,
+      "y": 0.145,
+      "width": 0.88,
+      "height": 0.12,
+      "text": "اکسسوری چرم و ساعت",
+      "fontSize": 24.0,
+      "fontWeight": "BLACK",
+      "textColor": "#1C1917",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    },
+    {
+      "id": "el_b6_01_photo",
+      "type": "IMAGE",
+      "x": 0.08,
+      "y": 0.275,
+      "width": 0.84,
+      "height": 0.49,
+      "imageAsset": "post_flatlay_products_01.webp",
+      "contentScale": "CROP",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 16.0,
+      "borderColor": "#E7E5E4",
+      "borderWidth": 1.5
+    },
+    {
+      "id": "el_b6_01_pill",
+      "type": "SHAPE",
+      "x": 0.08,
+      "y": 0.785,
+      "width": 0.84,
+      "height": 0.12,
+      "backgroundColor": "#1C1917",
+      "shapeType": "ROUNDED_RECT",
+      "cornerRadius": 14.0
+    },
+    {
+      "id": "el_b6_01_price",
+      "type": "TEXT",
+      "x": 0.08,
+      "y": 0.8,
+      "width": 0.84,
+      "height": 0.1,
+      "text": "شروع از ۲۹۰,۰۰۰ تومان",
+      "fontSize": 20.0,
+      "fontWeight": "BLACK",
+      "textColor": "#FACC15",
+      "textAlign": "CENTER",
+      "fontFamily": "lalezar"
+    }
+  ]
+}
